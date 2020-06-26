@@ -35,7 +35,7 @@ class Signup_body_controller extends CI_Controller
          { 
              $this->load->model('Registration_model');
 		    $this->Registration_model->save_data();
-		    $success = "Your account has been successfully created!";
+		    $success = "Your account has been successfully created! Now you can Login";
                     $this->load->view('Signup_body', compact('success')); 
          } 
 

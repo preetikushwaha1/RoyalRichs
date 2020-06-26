@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                
-      			<h1><a href="<?php echo site_url('Main_controller/index');?>" style="font-size:30px"><b>RoyalRichs <br><span style="font-size:12px">Stock Market & Economic Analysis</span></b></a></h1>
+      			<h1><a href="<?php echo site_url('Main_controller/index');?>" style="font-size:30px">RoyalRichs <br><span style="font-size:12px">Stock Market & Economic Analysis</span></a></h1>
   
            	 </div>
 
