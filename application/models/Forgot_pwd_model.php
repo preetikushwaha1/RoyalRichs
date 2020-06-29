@@ -4,9 +4,10 @@ defined('BASEPATH') OR exit('NO direct script access allowed');
 class Forgot_pwd_model extends CI_Model
 {
 	
-	function change_pass($email,$newPassword)
+	function change_pass($email,$newPassword,$confirmPassword)
 	{
-		$update_pass=$this->db->query("UPDATE sign_up set password='$newPassword'  where email='$email'");
+		$update_pass=$this->db->query("UPDATE signup set password='$newPassword' , confirm_password='$confirmPassword' where email='$email'");
+		
 	}
 
 

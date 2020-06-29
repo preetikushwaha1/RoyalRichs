@@ -1,7 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<style type="text/css">
 
+.input10{
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #686868;
+
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 62px;
+  border-radius: 3px;
+  padding: 0 10px 0 20px;
+}
+
+</style>
 <body>
 
 
@@ -24,38 +40,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="wrap-input100" >
 						<span class="label-input100">Full Name</span>
-						<input class="input100" type="text" name="full_name" id="full_name" placeholder="Name...">
+						<input class="input10" type="text" name="full_name" id="full_name" placeholder="Name..." style="">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100">
 						<span class="label-input100">Email</span>
-						<input class="input100" type="text" name="email"  id="email" placeholder="Email addess...">
+						<input class="input10" type="text" name="email"  id="email" placeholder="Email addess...">
 						<span class="focus-input100"></span>
 					</div>
 
 
 					<div class="wrap-input100" >
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="usr_name" id="usr_name" placeholder="Name...">
+						<input class="input10" type="text" name="usr_name" id="usr_name" placeholder="Name...">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100">
 						<span class="label-input100">Phone Number</span>
-						<input class="input100" type="text" name="phone_no" id="phone_no" placeholder="Phone Number">
+						<input class="input10" type="text" name="phone_no" id="phone_no" placeholder="Phone Number">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="Password" name="pwd"  id="pwd" placeholder="*************">
+						<input class="input10" type="Password" name="pwd"  id="pwd" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100">
 						<span class="label-input100">Confirm Password</span>
-						<input class="input100" type="Password" name="confirm_pwd" id="confirm_pwd" 
+						<input class="input10" type="Password" name="confirm_pwd" id="confirm_pwd" 
 						placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>

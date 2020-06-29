@@ -6,6 +6,10 @@ class Login_controller extends CI_Controller
     function __construct() 
     { 
         parent::__construct(); 
+        if(!$this->session->userdata('admin'))  
+        {
+        	redirect('Main_controller/dashboard_controller');
+        }
     } 
 
      public function index() 
@@ -26,6 +30,7 @@ class Login_controller extends CI_Controller
          } 
          else 
          { 
+         	$this->session->set_userdata('admin','1');
 			$this->load->model('Login_model');
 			$result = $this->Login_model->login();
 			if ($result > 0)
@@ -41,6 +46,9 @@ class Login_controller extends CI_Controller
 			  } 
 			}
 	} 
+
+
+
 
  }
  ?>

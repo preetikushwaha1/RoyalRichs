@@ -34,8 +34,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </ul>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="<?php echo site_url('Main_controller/upload_doc_controller');?>">
+                                <i class="fas  fa-folder-open"></i>Upload Document</a>
                         </li>
                         <li>
                             <a href="table.html">

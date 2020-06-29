@@ -1,7 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<style type="text/css">
+.input10{
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #686868;
 
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 62px;
+  border-radius: 3px;
+  padding: 0 10px 0 20px;
+}
+</style>
 <body>
 <br>
 	<div class="limiter">
@@ -14,31 +28,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						Forget Password
 					</span>
 
+						
 						 <?php
-		   					echo form_open('Forgot_pwd_controller');
-		  					 echo validation_errors();
-		   					if (isset($success))
-							   echo '<p>'.$success.'</p>';
+		   					//echo form_open('Forgot_pwd_controller');
+		  					// echo validation_errors();
+		   					//if (isset($success))
+							  // echo '<p>'.$success.'</p>';
+		   						echo $this->session->flashdata('success');
 						 ?>
+						
 
 					<div ><!--?php echo $this->session->flashdata('success');?--> </div>	
 
 
 					<div class="wrap-input100  p-t-15" >
 						<span class="label-input100">Email</span>
-						<input class="input100" type="text" name="email" placeholder="Email addess...">
+						<input class="input10" type="text" name="email" placeholder="Email addess...">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 p-t-15" >
 						<span class="label-input100">New Password</span>
-						<input class="input100" type="Password" name="new_pwd" placeholder="*************">
+						<input class="input10" type="Password" name="new_pwd" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 p-t-15" >
 						<span class="label-input100">Confirm Password</span>
-						<input class="input100" type="Password" name="confirm_pwd" placeholder="*************">
+						<input class="input10" type="Password" name="confirm_pwd" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 				

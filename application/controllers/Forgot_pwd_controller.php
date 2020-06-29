@@ -6,6 +6,7 @@ class Forgot_pwd_controller extends CI_Controller
     function __construct()
     {
         parent::__construct();
+        
         $this->load->model('Forgot_pwd_model');
     }
     
@@ -28,25 +29,37 @@ class Forgot_pwd_controller extends CI_Controller
          } 
          else
          {
-                if($this->input->post('btnpwd'))
-                {
-
+              
                     $email=$this->input->post('email');
                     $newPassword=$this->input->post('new_pwd');
                     $confirmPassword=$this->input->post('confirm_pwd');
 
-                    $que=$this->db->query("select password from signup  where email='$email'");
+                    $que=$this->db->query("select * from signup  where email='$email'");
                     $row=$que->row();
+                    if(!strcmp($newPassword, $confirmPassword))
+                    {
                     
                          $this->load->model('Forgot_pwd_model');
-                         $this->Forgot_pwd_model->change_pass($email,$newPassword);
+                         $this->Forgot_pwd_model->change_pass($email,$newPassword,$confirmPassword);
+                         $this->session->set_flashdata('success', "Password changed successfully");
 
-                          $success = "Your Password Change successfully!";
-                        $this->load->view('Forget_pwd', compact('success')); 
+                        //  $success = "Your Password Change successfully!";
+                        $this->load->view('Home_page/Main_header');
+                        //$this->load->view('Forget_pwd', compact('success'));
+                        $this->load->view('Forget_pwd'); 
+                        $this->load->view('Home_page/Main_footer'); 
+                    }
+                    else
+                    {
+                         // $success = "Invalid";
+                        //$this->load->view('Forget_pwd', compact('success')); 
+                         $this->session->set_flashdata('success', "Password changed successfully");
+                          
+                    }
                     
-                }
+                
 
-            echo $this->db->last_query();
+            
         }
     }
 }

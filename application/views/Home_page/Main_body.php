@@ -353,10 +353,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
             <div class="box">
               <div class="col-lg-12 col-md-12 portfolio-item filter-card">
-            <img src="<?php echo base_url('assets/img/Screenshot_211-342x231.png');?>" class="img-fluid" alt=""
+            <img src="<?php echo base_url('assets/img/Screenshot_33.png');?>" class="img-fluid" alt=""
              style="height:230px; width:300px">
             <div class="portfolio-info">
-              <a href="<?php echo base_url('assets/img/Screenshot_211-342x231.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
+              <a href="<?php echo base_url('assets/img/Screenshot_33.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div> 
@@ -386,6 +386,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
              style="height:230px; width:300px">
             <div class="portfolio-info">
               <a href="<?php echo base_url('assets/img/Screenshot_34.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> 
+          </div>
+
+        </div>
+
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-5" data-aos="zoom-in" data-aos-delay="150">
+             <div class="box">
+              <div class="col-lg-12 col-md-12 portfolio-item filter-card">
+            <img src="<?php echo base_url('assets/img/Screenshot_31.png');?>" class="img-fluid" alt=""
+             style="height:230px; width:300px">
+            <div class="portfolio-info">
+              <a href="<?php echo base_url('assets/img/Screenshot_31.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> 
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-5" data-aos="zoom-in" data-aos-delay="150">
+             <div class="box">
+              <div class="col-lg-12 col-md-12 portfolio-item filter-card">
+            <img src="<?php echo base_url('assets/img/Screenshot_30.png');?>" class="img-fluid" alt=""
+             style="height:230px; width:300px">
+            <div class="portfolio-info">
+              <a href="<?php echo base_url('assets/img/Screenshot_30.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> 
+          </div>
+
+        </div>
+
+    <div class="col-lg-4 col-md-6 mt-4 mt-lg-5" data-aos="zoom-in" data-aos-delay="150">
+             <div class="box">
+              <div class="col-lg-12 col-md-12 portfolio-item filter-card">
+            <img src="<?php echo base_url('assets/img/Screenshot_29.png');?>" class="img-fluid" alt=""
+             style="height:230px; width:300px">
+            <div class="portfolio-info">
+              <a href="<?php echo base_url('assets/img/Screenshot_29.png');?>" data-gall="portfolioGallery" class="preview-link" title="PROTECT EARTH- LOVING NATURE"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div> 

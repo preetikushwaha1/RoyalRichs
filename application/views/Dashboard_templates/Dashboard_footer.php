@@ -5,6 +5,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Jquery JS-->
     <script src="<?php echo base_url('dashboard_assets/vendor/jquery-3.2.1.min.js');?>"></script>
     <!-- Bootstrap JS-->
+
+  <!--====================Preeti.js=================================================================-->
+      <script src="<?php echo base_url('assets/Preeti_javascript/Preeti.js');?>?version=1.1"></script>
+<!--======================================================================================================-->
+  
     <script src="<?php echo base_url('dashboard_assets/vendor/bootstrap-4.1/popper.min.js');?>"></script>
     <script src="<?php echo base_url('dashboard_assets/vendor/bootstrap-4.1/bootstrap.min.js');?>"></script>
     <!-- Vendor JS       -->
